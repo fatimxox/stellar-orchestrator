@@ -15,6 +15,8 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        command: "command-button",
+        mission: "bg-card text-card-foreground border border-border hover:border-primary/50 hover:bg-card/80",
       },
       size: {
         default: "h-10 px-4 py-2",
